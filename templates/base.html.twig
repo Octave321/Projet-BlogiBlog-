@@ -1,0 +1,21 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+    </head>
+    <body>
+
+        <header>
+            <ul>
+                <li> <a href="{{ path('default') }}">Accueil</a></li>
+                <li> <a href="{{ path('article') }}">Article</a></li>
+                
+            </ul>
+        </header>
+
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+</html>
