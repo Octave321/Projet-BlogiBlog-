@@ -12,7 +12,7 @@ class Commentaire
 {
     /**
      * @ORM\Id
-     * @ORM\GeneratedValue
+     * @ORM\GeneratedValue 
      * @ORM\Column(type="integer")
      */
     private $id;

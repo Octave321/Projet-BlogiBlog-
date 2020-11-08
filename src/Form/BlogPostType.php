@@ -16,7 +16,7 @@ class BlogPostType extends AbstractType
             ->add('Content')
             ->add('Banniere')
             ->add('CreateAt') 
-            ->add('Author')
+            ->add('Author') 
         ;
     }
 
