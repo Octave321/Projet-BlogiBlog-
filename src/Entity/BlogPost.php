@@ -27,7 +27,7 @@ class BlogPost
      */
     private $Content;
 
-    /**
+    /** 
      * @ORM\Column(type="string", length=100)
      */
     private $Banniere;

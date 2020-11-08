@@ -9,13 +9,14 @@
 </style>
 
     <li> <a href="{{ path('profil') }}">Profil</a></li>
+    <li> <a href="{{ path('blog_post_new') }}">Creer un Post</a></li>
+    <li> <a href="{{ path('blog_post_index') }}">Voire un Post</a></li>
 
     <p>Bienvenu {{ app.user.username }}, <a href="{{ path('app_logout') }}">Logout</a></p>
 
-      
+    <p>{{ app.blogpost.blog_post_show}}</p>
 
 
-    
 
 
 {% endblock %}
